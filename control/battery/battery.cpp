@@ -8,7 +8,7 @@
 Battery::Battery(QWidget *parent) : QWidget(parent)
 {
     minValue = 0;
-    maxValue = 100;
+    maxValue = 200;
     value = 0;
     alarmValue = 30;
     step = 0.5;
